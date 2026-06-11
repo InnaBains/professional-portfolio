@@ -738,28 +738,6 @@ footer {
 
 
 
-/* ========================= REFINED CTA ========================= */
-
-.refined-cta {
-  background: #FFFFFF;
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  padding: 3rem 2rem;
-  text-align: center;
-  box-shadow: var(--shadow);
-}
-
-.refined-cta h2 {
-  margin-bottom: 1rem;
-  color: var(--text-primary);
-}
-
-.refined-cta p {
-  max-width: 720px;
-  margin: 0 auto 2rem;
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-}
 
 
 
