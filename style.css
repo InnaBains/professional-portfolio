@@ -490,3 +490,16 @@ footer {
 .contact-card a:hover {
   color: #00ff88;
 }
+
+/* GLOBAL SPACING IMPROVEMENTS */
+section {
+  margin-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
