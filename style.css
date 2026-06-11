@@ -674,3 +674,89 @@ footer {
   }
 }
 
+/* ========================= REFINED ABOUT ========================= */
+
+.refined-about .refined-text {
+  max-width: 760px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.8rem;
+}
+
+
+
+/* ========================= REFINED TECHNICAL AREAS ========================= */
+
+.technical-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.tech-row {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.6rem 1.8rem;
+  box-shadow: var(--shadow);
+  transition: 0.25s ease;
+}
+
+.tech-row:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.tech-row-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+
+
+/* ========================= REFINED SKILLS ========================= */
+
+.skills-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-line span {
+  background: var(--bg-muted);
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+
+
+/* ========================= REFINED CTA ========================= */
+
+.refined-cta {
+  background: var(--accent-light);
+  color: var(--text-primary);
+  border-radius: 22px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.refined-cta h2 {
+  margin-bottom: 1rem;
+}
+
+.refined-cta p {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+}
+
+
