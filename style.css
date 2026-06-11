@@ -503,3 +503,7 @@ h1, h2, h3 {
 p {
   margin-bottom: 1rem;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
