@@ -454,36 +454,37 @@ a {
 
 .cta-section {
   text-align: center;
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
-  color: #FFFFFF;
-  padding: 3.5rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 3rem 2rem;
   border-radius: 28px;
   box-shadow: var(--shadow);
 }
 
 .cta-section h2 {
-  color: #FFFFFF;
-  font-size: 2.1rem;
+  color: var(--text-primary);
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .cta-section p {
-  color: rgba(255, 255, 255, 0.92);
+  color: var(--text-secondary);
   max-width: 720px;
   margin: 0 auto 2rem;
 }
 
 .cta-section .btn-primary,
 .cta-button {
-  background: #FFFFFF;
-  color: var(--accent);
-  box-shadow: none;
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 109, 90, 0.25);
 }
 
 .cta-section .btn-primary:hover,
 .cta-button:hover {
-  background: var(--bg-muted);
-  color: var(--accent-hover);
+  background: var(--accent-hover);
+  color: #ffffff;
 }
 
 /* FOOTER */
