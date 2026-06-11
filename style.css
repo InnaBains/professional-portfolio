@@ -627,3 +627,46 @@ footer {
   padding: 2.8rem 2rem;
 }
 
+.live-demo-thumb {
+  position: relative;
+  display: block;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.live-demo-thumb img {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  transition: 0.3s ease;
+}
+
+.live-demo-thumb:hover img {
+  filter: brightness(0.75);
+  transform: scale(1.02);
+}
+
+.live-demo-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  background: rgba(0,0,0,0.35);
+  opacity: 0;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+
+.live-demo-thumb:hover .live-demo-overlay {
+  opacity: 1;
+}
+
+.live-demo-overlay i {
+  font-size: 1.3rem;
+}
+
