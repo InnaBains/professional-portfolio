@@ -1,7 +1,3 @@
-/* ----------------------------------------------------
-   GLOBAL THEME — MINIMAL TECH + SOFT MODERN
----------------------------------------------------- */
-
 :root {
   --bg-main: #FAFAFA;
   --bg-card: #FFFFFF;
@@ -16,16 +12,12 @@
 
   --border: #E5E5E5;
 
-  --radius: 16px;
+  --radius: 18px;
   --shadow: 0 4px 14px rgba(0,0,0,0.08);
   --shadow-hover: 0 8px 24px rgba(0,0,0,0.12);
 
   --max-width: 1120px;
 }
-
-/* ----------------------------------------------------
-   GLOBAL RESET
----------------------------------------------------- */
 
 * {
   box-sizing: border-box;
@@ -37,7 +29,6 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
   background: var(--bg-main);
   color: var(--text-primary);
   font-family: 'Inter', sans-serif;
@@ -54,17 +45,8 @@ h1,
 h2,
 h3 {
   color: var(--text-primary);
-  line-height: 1.2;
+  line-height: 1.15;
   margin-top: 0;
-}
-
-h1 {
-  font-weight: 800;
-}
-
-h2,
-h3 {
-  font-weight: 700;
 }
 
 p {
@@ -75,9 +57,7 @@ a {
   color: inherit;
 }
 
-/* ----------------------------------------------------
-   NAVIGATION
----------------------------------------------------- */
+/* NAVIGATION */
 
 .navbar {
   display: flex;
@@ -111,7 +91,7 @@ a {
 .nav-links a {
   text-decoration: none;
   color: var(--text-secondary);
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.2s ease;
 }
 
@@ -120,24 +100,22 @@ a {
   color: var(--accent);
 }
 
-/* ----------------------------------------------------
-   BUTTONS
----------------------------------------------------- */
+/* BUTTONS */
 
 .btn-primary,
 .btn-secondary,
 .btn-small {
   display: inline-block;
-  border-radius: var(--radius);
+  border-radius: 14px;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 800;
   transition: 0.2s ease;
 }
 
 .btn-primary {
   background: var(--accent);
   color: #FFFFFF;
-  padding: 0.8rem 1.5rem;
+  padding: 0.85rem 1.6rem;
   box-shadow: 0 4px 12px rgba(37, 109, 90, 0.25);
 }
 
@@ -150,7 +128,7 @@ a {
   background: transparent;
   border: 2px solid var(--accent);
   color: var(--accent);
-  padding: 0.7rem 1.4rem;
+  padding: 0.75rem 1.5rem;
 }
 
 .btn-secondary:hover {
@@ -162,8 +140,9 @@ a {
 .btn-small {
   background: var(--bg-muted);
   color: var(--text-primary);
-  padding: 0.55rem 1rem;
+  padding: 0.6rem 1rem;
   border: 1px solid var(--border);
+  font-size: 0.9rem;
 }
 
 .btn-small:hover {
@@ -173,17 +152,15 @@ a {
   transform: translateY(-2px);
 }
 
-/* ----------------------------------------------------
-   HERO SECTION
----------------------------------------------------- */
+/* HERO */
 
 .hero {
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr;
+  grid-template-columns: 1.35fr 0.85fr;
   align-items: center;
   gap: 3rem;
 }
@@ -194,25 +171,25 @@ a {
 
 .eyebrow {
   color: var(--accent);
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
-  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
   margin-bottom: 1rem;
 }
 
 .hero-title {
-  font-size: clamp(2.3rem, 5vw, 4.4rem);
-  font-weight: 800;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.5rem, 5.2vw, 4.6rem);
+  font-weight: 900;
+  letter-spacing: -0.07em;
   max-width: 850px;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--text-secondary);
-  max-width: 720px;
+  max-width: 760px;
   margin: 0;
 }
 
@@ -226,7 +203,7 @@ a {
 .hero-photo-card {
   background: linear-gradient(145deg, #FFFFFF, #F2F5F4);
   border: 1px solid var(--border);
-  border-radius: 24px;
+  border-radius: 28px;
   padding: 1rem;
   box-shadow: var(--shadow);
 }
@@ -234,20 +211,18 @@ a {
 .hero-photo {
   width: 100%;
   display: block;
-  border-radius: 20px;
+  border-radius: 22px;
   object-fit: cover;
   aspect-ratio: 4 / 5;
 }
 
-/* ----------------------------------------------------
-   STATS SECTION
----------------------------------------------------- */
+/* STATS */
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
 }
 
 .stat-card {
@@ -267,24 +242,22 @@ a {
 
 .stat-card p {
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-/* ----------------------------------------------------
-   SECTION STRUCTURE
----------------------------------------------------- */
+/* SECTION STRUCTURE */
 
 .section-block {
-  margin-bottom: 4.5rem;
+  margin-bottom: 4.8rem;
 }
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .section-heading h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 0.6rem;
 }
 
@@ -292,38 +265,19 @@ a {
   margin-top: 0;
 }
 
-.intro-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 2rem;
-  box-shadow: var(--shadow);
-  margin-bottom: 4.5rem;
-}
-
-.intro-card h2 {
-  margin-bottom: 0.8rem;
-}
-
-.intro-card p {
-  margin-bottom: 0;
-}
-
-/* ----------------------------------------------------
-   PROJECT CARDS
----------------------------------------------------- */
+/* PROJECTS */
 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .project-card-large {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 2rem;
+  border-radius: 24px;
+  padding: 1.4rem;
   box-shadow: var(--shadow);
   transition: 0.25s ease;
 }
@@ -334,8 +288,43 @@ a {
 }
 
 .project-card-large h3 {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   margin-bottom: 0.8rem;
+}
+
+.project-featured p {
+  font-size: 0.98rem;
+}
+
+.project-visual {
+  height: 160px;
+  border-radius: 18px;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.project-visual span {
+  background: rgba(255,255,255,0.9);
+  color: var(--accent);
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+}
+
+.nutrition-visual {
+  background:
+    radial-gradient(circle at top left, rgba(37,109,90,0.25), transparent 35%),
+    linear-gradient(135deg, #E7F2EE, #FFFFFF);
+}
+
+.paradise-visual {
+  background:
+    radial-gradient(circle at top right, rgba(37,99,235,0.22), transparent 35%),
+    linear-gradient(135deg, #EAF1FF, #FFFFFF);
 }
 
 .project-status {
@@ -344,8 +333,8 @@ a {
   display: inline-block;
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
-  font-weight: 800;
-  font-size: 0.78rem;
+  font-weight: 900;
+  font-size: 0.76rem;
   margin-bottom: 1rem;
 }
 
@@ -362,8 +351,8 @@ a {
   border-radius: 999px;
   border: 1px solid var(--border);
   color: var(--accent);
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 .project-actions {
@@ -373,91 +362,108 @@ a {
   margin-top: 1.2rem;
 }
 
-/* ----------------------------------------------------
-   CASE STUDIES
----------------------------------------------------- */
+/* ABOUT PREVIEW */
 
-.case-study-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.2rem;
-}
-
-.case-card {
+.about-preview {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
+  border-radius: 26px;
+  padding: 2.3rem;
   box-shadow: var(--shadow);
-  transition: 0.25s ease;
+  margin-bottom: 4.8rem;
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr;
+  gap: 2rem;
+  align-items: center;
 }
 
-.case-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
-}
-
-.case-card h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.7rem;
-}
-
-.case-card p {
-  font-size: 0.95rem;
+.about-preview h2 {
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
-/* ----------------------------------------------------
-   SKILLS
----------------------------------------------------- */
+.about-preview p {
+  margin: 0;
+}
 
-.skills-category-grid {
+/* TECHNICAL AREAS */
+
+.technical-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
-.skill-category {
+.technical-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 22px;
   padding: 1.5rem;
   box-shadow: var(--shadow);
   transition: 0.25s ease;
 }
 
-.skill-category:hover {
+.technical-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-hover);
 }
 
-.skill-category h3 {
+.technical-icon {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-light);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.technical-card h3 {
   font-size: 1.05rem;
-  color: var(--accent);
   margin-bottom: 0.7rem;
 }
 
-.skill-category p {
+.technical-card p {
+  font-size: 0.95rem;
   margin-bottom: 0;
 }
 
-/* ----------------------------------------------------
-   CTA SECTION
----------------------------------------------------- */
+/* SKILLS */
+
+.skills-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-cloud span {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  font-weight: 800;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* CTA */
 
 .cta-section {
   text-align: center;
   background: linear-gradient(135deg, var(--accent), var(--accent-hover));
   color: #FFFFFF;
   padding: 3.5rem 2rem;
-  border-radius: 24px;
+  border-radius: 28px;
   box-shadow: var(--shadow);
 }
 
 .cta-section h2 {
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 2.1rem;
   margin-bottom: 1rem;
 }
 
@@ -480,9 +486,7 @@ a {
   color: var(--accent-hover);
 }
 
-/* ----------------------------------------------------
-   FOOTER
----------------------------------------------------- */
+/* FOOTER */
 
 footer {
   text-align: center;
@@ -494,9 +498,7 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-/* ----------------------------------------------------
-   RESPONSIVE DESIGN
----------------------------------------------------- */
+/* RESPONSIVE */
 
 @media (max-width: 980px) {
   .hero-layout {
@@ -521,12 +523,12 @@ footer {
   }
 
   .stats-grid,
-  .case-study-grid,
-  .skills-category-grid {
+  .technical-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .project-grid {
+  .project-grid,
+  .about-preview {
     grid-template-columns: 1fr;
   }
 }
@@ -549,7 +551,7 @@ footer {
   }
 
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     letter-spacing: -0.04em;
   }
 
@@ -558,15 +560,13 @@ footer {
   }
 
   .stats-grid,
-  .case-study-grid,
-  .skills-category-grid {
+  .technical-grid {
     grid-template-columns: 1fr;
   }
 
   .project-card-large,
-  .intro-card,
-  .case-card,
-  .skill-category {
+  .about-preview,
+  .technical-card {
     padding: 1.3rem;
   }
 
