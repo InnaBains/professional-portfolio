@@ -231,3 +231,94 @@ footer {
   color: #00ff88;
   font-weight: 500;
 }
+
+/* PROJECTS PAGE */
+
+.projects-container {
+  padding: 2rem 2.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.projects-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projects-hero h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.projects-tagline {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-top: 0.5rem;
+}
+
+/* SECTION HEADERS */
+.featured-projects-section h2,
+.technical-projects-section h2 {
+  color: #00ff88;
+  margin-bottom: 1.5rem;
+}
+
+/* LARGE PROJECT CARDS */
+.project-card-large {
+  background: #1a1a1a;
+  padding: 1.8rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 2rem;
+}
+
+.project-card-large h3 {
+  color: #00ff88;
+}
+
+.project-card-large p {
+  color: #dddddd;
+  margin: 0.8rem 0 1.2rem;
+}
+
+/* TAGS */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.project-tags span {
+  background: #111;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+  color: #00ff88;
+  font-size: 0.9rem;
+}
+
+/* LINKS */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+/* SMALL PROJECT CARDS */
+.project-card {
+  background: #1a1a1a;
+  padding: 1.4rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 1.5rem;
+}
+
+.project-card h3 {
+  color: #00ff88;
+}
+
+.project-card p {
+  color: #dddddd;
+  margin: 0.6rem 0 1rem;
+}
