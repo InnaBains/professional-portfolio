@@ -1066,6 +1066,85 @@ grid-template-columns: 1fr;
 .development-list p:last-child {
   border-bottom: none;
 }
+/* CONTACT PAGE */
+
+.contact-hero-modern {
+  max-width: 900px;
+  margin-bottom: 3.5rem;
+}
+
+.contact-hero-modern h1 {
+  font-size: clamp(2.2rem, 4.5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  margin-bottom: 1.2rem;
+}
+
+.contact-hero-modern p {
+  font-size: 1.15rem;
+  max-width: 850px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.contact-card,
+.availability-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  transition: 0.25s ease;
+}
+
+.contact-card:hover,
+.availability-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.contact-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card p {
+  margin-bottom: 1rem;
+}
+
+.contact-card a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.availability-card {
+  margin-bottom: 4.5rem;
+}
+
+.availability-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.availability-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
