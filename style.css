@@ -741,13 +741,14 @@ footer {
 /* ========================= REFINED CTA ========================= */
 
 .refined-cta {
-  background: var(--accent-light);
-  color: var(--text-primary);
+  background: linear-gradient(135deg, #F8FCFB, #EAF5F1);
+  border: 1px solid var(--border);
   border-radius: 22px;
   padding: 3rem 2rem;
   text-align: center;
   box-shadow: var(--shadow);
 }
+
 
 .refined-cta h2 {
   margin-bottom: 1rem;
