@@ -152,6 +152,20 @@ footer {
   color: #cccccc;
 }
 
+.project-card,
+.project-card-large,
+.contact-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover,
+.project-card-large:hover,
+.contact-card:hover {
+  transform: translateY(-4px);
+  border-color: #00ff88;
+}
+
+
 /* SKILLS PREVIEW */
 .skills-preview {
   margin-top: 4rem;
