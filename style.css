@@ -1146,6 +1146,78 @@ grid-template-columns: 1fr;
   }
 }
 
+/* PROJECTS PAGE */
+
+.projects-hero-modern {
+  max-width: 950px;
+  margin-bottom: 3.5rem;
+}
+
+.projects-hero-modern h1 {
+  font-size: clamp(2.2rem, 4.5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  margin-bottom: 1.2rem;
+}
+
+.projects-hero-modern p {
+  font-size: 1.15rem;
+  max-width: 850px;
+}
+
+.portfolio-project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.portfolio-project-card,
+.technical-project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  transition: 0.25s ease;
+}
+
+.portfolio-project-card:hover,
+.technical-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.featured-project-card {
+  border-left: 6px solid var(--accent);
+}
+
+.project-card-content h3,
+.technical-project-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.technical-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.technical-project-card p {
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .technical-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-project-card,
+  .technical-project-card {
+    padding: 1.5rem;
+  }
+}
+
 
 
 
