@@ -2,160 +2,231 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Portfolio of Inna Bains – Computing Graduate specialising in full‑stack development, cloud systems, databases, and data‑driven applications.">
-<meta name="keywords" content="Software Developer, Full Stack, React, Spring Boot, MySQL, Cloud, Computing Graduate">
-<meta name="author" content="Inna Bains">
-  <title>Page Title | Inna Bains</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
 
+  <meta name="description" content="Projects by Inna Bains – Computing graduate portfolio featuring full-stack applications, Java OOP, database design, cloud architecture, and systems analysis work.">
+  <meta name="keywords" content="Inna Bains, Projects, Full Stack, Java, PHP, React, Spring Boot, MySQL, Azure, Systems Analysis, Computing Graduate">
+  <meta name="author" content="Inna Bains">
+
+  <title>Projects | Inna Bains</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
 
-  <!-- NAVIGATION BAR HERE -->
 <header>
   <nav class="navbar">
     <a href="index.html" class="logo">Inna Bains</a>
-  <ul class="nav-links">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="skills.html">Skills & Education</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="skills.html">Skills & Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
 </header>
 
+<main>
 
-  <main class="projects-container">
+  <section class="projects-hero-modern">
+    <p class="eyebrow">Projects</p>
 
-  <!-- PAGE HEADER -->
-  <section class="projects-hero">
-    <h1>Projects</h1>
-    <p class="projects-tagline">
-      A collection of full‑stack applications, database systems, cloud architectures, and software engineering projects developed during my BSc (Hons) Computing degree.
+    <h1>Portfolio projects demonstrating software, data and technology skills</h1>
+
+    <p>
+      A collection of full-stack applications, Java software development, database systems,
+      cloud architecture and systems analysis projects completed during my BSc (Hons)
+      Computing degree.
     </p>
   </section>
 
-  <!-- FEATURED PROJECTS -->
-  <section class="featured-projects-section">
-    <h2>Featured Projects</h2>
-
-    <!-- PROJECT 1 -->
-    <div class="project-card-large">
-      <h3>Sustainable Nutrition Recommendation System</h3>
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">Featured Work</p>
+      <h2>Live Applications</h2>
       <p>
-        A full‑stack web application integrating nutritional analysis, CO₂e sustainability indicators, pantry management, expiry‑aware prioritisation, and rule‑based meal planning. Built as my dissertation artefact, this system demonstrates transparent decision‑support logic and real‑world applicability for UK university students.
+        These are my strongest portfolio projects because they include live demonstrations,
+        technical implementation evidence and public GitHub repositories.
       </p>
-
-      <div class="project-tags">
-        <span>React</span>
-        <span>Spring Boot</span>
-        <span>MySQL</span>
-        <span>Python</span>
-        <span>Docker</span>
-        <span>Cloud Deployment</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://stalwart-queijadas-6e1fb3.netlify.app" class="btn-small" target="_blank">Live Demo</a>
-        <a href="https://innabains.github.io/dissertation-artefact-2026/" class="btn-small" target="_blank">Artefact Site</a>
-        <a href="https://github.com/InnaBains/dissertation-artefact-2026" class="btn-small" target="_blank">GitHub Repo</a>
-        <a href="mailto:innessyk@gmail.com" class="btn-secondary">Request Full Source Code</a>
-      </div>
     </div>
 
-    <!-- PROJECT 2 -->
-    <div class="project-card-large">
-      <h3>Passport to Paradise – Media Database Application</h3>
-      <p>
-        A database‑driven web application featuring user authentication, session management, leaderboards, CRUD operations, and relational database integration. Designed to demonstrate secure PHP development and MySQL‑backed dynamic content.
-      </p>
+    <div class="portfolio-project-list">
 
-      <div class="project-tags">
-        <span>PHP</span>
-        <span>JavaScript</span>
-        <span>MySQL</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </div>
+      <article class="portfolio-project-card featured-project-card">
+        <div class="project-card-content">
+          <p class="project-status">Full-Stack Dissertation Project</p>
 
-      <div class="project-links">
-        <a href="#" class="btn-small">Live Demo</a>
-        <a href="#" class="btn-small">GitHub Repo</a>
-      </div>
+          <h3>Sustainable Nutrition Recommendation System</h3>
+
+          <p>
+            A full-stack web application integrating nutrition guidance, pantry management,
+            CO₂e sustainability scoring, expiry-aware prioritisation and weekly meal planning.
+            The project demonstrates transparent decision-support logic and practical
+            technology design for real-world food planning.
+          </p>
+
+          <div class="project-tags">
+            <span>React</span>
+            <span>Spring Boot</span>
+            <span>Java</span>
+            <span>MySQL</span>
+            <span>Python</span>
+            <span>Docker</span>
+            <span>Cloud Deployment</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://stalwart-queijadas-6e1fb3.netlify.app" class="btn-small" target="_blank">Live Application</a>
+            <a href="https://youtu.be/Cdsmm7Sak5Y" class="btn-small" target="_blank">Demo Video</a>
+            <a href="https://innabains.github.io/dissertation-artefact-2026/" class="btn-small" target="_blank">Project Website</a>
+            <a href="https://github.com/InnaBains/dissertation-artefact-2026" class="btn-small" target="_blank">Public GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="portfolio-project-card featured-project-card">
+        <div class="project-card-content">
+          <p class="project-status">PHP & MySQL Web Application</p>
+
+          <h3>Passport to Paradise</h3>
+
+          <p>
+            A database-driven media web application featuring user authentication, session
+            management, leaderboards, CRUD operations and relational database integration.
+            The project demonstrates secure PHP development and MySQL-backed dynamic content.
+          </p>
+
+          <div class="project-tags">
+            <span>PHP</span>
+            <span>JavaScript</span>
+            <span>MySQL</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://passport-to-paradise.free.nf" class="btn-small" target="_blank">Live Application</a>
+            <a href="https://youtu.be/unTuK3gTtgw" class="btn-small" target="_blank">Demo Video</a>
+            <a href="https://github.com/InnaBains/passport-to-paradise" class="btn-small" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </article>
+
     </div>
-
   </section>
 
-  <!-- TECHNICAL PROJECTS -->
-  <section class="technical-projects-section">
-    <h2>Technical Projects</h2>
-
-    <!-- JAVA OOP -->
-    <div class="project-card">
-      <h3>Virtual Pet Management System</h3>
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">Technical Evidence</p>
+      <h2>Technical Projects & Case Studies</h2>
       <p>
-        A Java‑based object‑oriented application demonstrating encapsulation, inheritance, polymorphism, abstraction, UML modelling, and multi‑user functionality.
+        Additional projects showing Java programming, object-oriented design, database
+        development, cloud architecture and systems analysis skills.
       </p>
-      <div class="project-tags">
-        <span>Java</span>
-        <span>OOP</span>
-        <span>UML</span>
-      </div>
     </div>
 
-    <!-- DATABASE -->
-    <div class="project-card">
-      <h3>Vehicle Marketplace Database</h3>
-      <p>
-        A complete MySQL relational database system featuring EER modelling, SQL views, stored procedures, triggers, and 3NF normalisation.
-      </p>
-      <div class="project-tags">
-        <span>MySQL</span>
-        <span>SQL Views</span>
-        <span>Stored Procedures</span>
-        <span>Triggers</span>
-      </div>
-    </div>
+    <div class="technical-project-grid">
 
-    <!-- CLOUD -->
-    <div class="project-card">
-      <h3>Azure Fleet Management Architecture</h3>
-      <p>
-        A scalable cloud infrastructure design including virtual networks, NSGs, VM scale sets, load balancers, monitoring, and secure multi‑tier architecture.
-      </p>
-      <div class="project-tags">
-        <span>Azure</span>
-        <span>Cloud Architecture</span>
-        <span>Networking</span>
-      </div>
-    </div>
+      <article class="technical-project-card">
+        <h3>Virtual Pet Management System</h3>
 
-    <!-- SYSTEMS ANALYSIS -->
-    <div class="project-card">
-      <h3>Prime Estates Property Management System</h3>
-      <p>
-        A full systems analysis and design project including stakeholder analysis, requirements engineering, DFDs, process modelling, and Agile planning.
-      </p>
-      <div class="project-tags">
-        <span>Systems Analysis</span>
-        <span>DFDs</span>
-        <span>Requirements Engineering</span>
-      </div>
-    </div>
+        <p>
+          Java object-oriented console application demonstrating encapsulation,
+          inheritance, polymorphism, abstraction, UML modelling, multi-user functionality,
+          pet adoption, interaction logic, health tracking and testing.
+        </p>
 
+        <div class="project-tags">
+          <span>Java</span>
+          <span>OOP</span>
+          <span>UML</span>
+          <span>Testing</span>
+          <span>Console Application</span>
+        </div>
+
+        <div class="project-actions">
+          <a href="https://github.com/InnaBains/virtual-pet-management-system" class="btn-small" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <article class="technical-project-card">
+        <h3>Vehicle Marketplace Database</h3>
+
+        <p>
+          A complete MySQL relational database system featuring EER modelling,
+          data normalisation, SQL views, stored procedures, triggers and implementation
+          evidence.
+        </p>
+
+        <div class="project-tags">
+          <span>MySQL</span>
+          <span>EER Modelling</span>
+          <span>SQL Views</span>
+          <span>Stored Procedures</span>
+          <span>Triggers</span>
+        </div>
+      </article>
+
+      <article class="technical-project-card">
+        <h3>Azure Fleet Management Architecture</h3>
+
+        <p>
+          A scalable cloud infrastructure design project covering Azure virtual networks,
+          network security groups, VM scale sets, load balancing, monitoring and secure
+          multi-tier architecture.
+        </p>
+
+        <div class="project-tags">
+          <span>Azure</span>
+          <span>Cloud Architecture</span>
+          <span>Networking</span>
+          <span>Monitoring</span>
+        </div>
+      </article>
+
+      <article class="technical-project-card">
+        <h3>Prime Estates Property Management System</h3>
+
+        <p>
+          Systems analysis and design project including stakeholder analysis,
+          requirements engineering, data flow diagrams, process modelling and Agile
+          planning.
+        </p>
+
+        <div class="project-tags">
+          <span>Systems Analysis</span>
+          <span>DFDs</span>
+          <span>Requirements Engineering</span>
+          <span>Agile Planning</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="about-cta-modern">
+    <h2>Want to discuss my project work?</h2>
+
+    <p>
+      I would be happy to explain my project decisions, technical implementation,
+      GitHub repositories or graduate technology interests.
+    </p>
+
+    <div class="hero-buttons center-buttons">
+      <a href="contact.html" class="btn-primary">Contact Me</a>
+      <a href="skills.html" class="btn-secondary">View Skills</a>
+    </div>
   </section>
 
 </main>
 
-  
-
-  <!-- FOOTER HERE -->
-  <footer>
+<footer>
   <p>© 2026 · Inna Bains · BSc (Hons) Computing</p>
 </footer>
+
 </body>
 </html>
-
-
