@@ -196,12 +196,13 @@ My latest CV is included within this repository.
 
 ---
 
-## 📫 Contact
+# 📫 Contact
 
-**Inna Bains**
-
-- LinkedIn: www.linkedin.com/in/inna-bains-0aa890264
-- GitHub: https://github.com/InnaBains
+* **Author:** Inna Bains  
+* **Degree:** BSc (Hons) Computing, Arden University (2026)  
+* **Email:** [innessyk@gmail.com](mailto:innessyk@gmail.com) 
+* **GitHub:** https://github.com/InnaBains
+* **LinkedIn:** https://www.linkedin.com/in/inna-bains-0aa890264
 
 ---
 
