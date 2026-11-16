@@ -1,7 +1,6 @@
 # 💼 Inna Bains – Professional Portfolio
 
-Professional portfolio showcasing software development, full-stack web applications, database systems, cloud architecture, systems analysis, and computing projects completed during my BSc (Hons) Computing degree.
-
+Portfolio of Inna Bains, a Stock Systems Administrator and MSc Data Science student. It includes completed projects in software development, databases, cloud architecture and systems analysis.
 ---
 
 ## 🌐 Live Portfolio
@@ -14,16 +13,7 @@ https://innabains.github.io/professional-portfolio/
 
 ## 👩‍💻 About Me
 
-I am a BSc (Hons) Computing graduate with practical experience in:
-
-- Software Development
-- Full-Stack Web Development
-- Database Design & SQL Development
-- Cloud Architecture
-- Systems Analysis & Design
-- Data-Driven Applications
-
-My portfolio demonstrates both academic and applied computing projects developed throughout my degree, showcasing technical problem-solving, software engineering principles, and real-world technology solutions.
+I use JDA to investigate stock discrepancies, review inventory transactions and support stock checks. I graduated from Arden University in 2026 with First Class Honours in BSc (Hons) Computing (82.33%) and am now studying for an MSc in Data Science.
 
 ---
 
