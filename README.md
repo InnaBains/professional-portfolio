@@ -50,9 +50,10 @@ Full-stack dissertation artefact integrating:
 
 Links:
 
-- Live Application
-- Demo Video
-- Public Artefact Repository
+- [Live Application](https://stalwart-queijadas-6e1fb3.netlify.app)
+- [Demo Video](https://youtu.be/Cdsmm7Sak5Y)
+- [Project Showcase](https://innabains.github.io/dissertation-artefact-2026/)
+- [Showcase Repository](https://github.com/InnaBains/dissertation-artefact-2026)
 
 ---
 
@@ -77,9 +78,8 @@ Full-stack PHP and MySQL web application featuring:
 
 Links:
 
-- Live Application
-- Demo Video
-- GitHub Repository
+- [Demo Video](https://youtu.be/unTuK3gTtgw)
+- [GitHub Repository](https://github.com/InnaBains/passport-to-paradise)
 
 ---
 
@@ -97,7 +97,7 @@ Java object-oriented application demonstrating:
 - Multi-user functionality
 
 Repository:
-- Virtual Pet Management System
+- [Virtual Pet Management System](https://github.com/InnaBains/virtual-pet-management-system)
 
 ---
 
@@ -113,7 +113,7 @@ Fully normalised MySQL database solution featuring:
 - Relational Integrity
 
 Repository:
-- Vehicle Marketplace Database System
+- [Vehicle Marketplace Database System](https://github.com/InnaBains/vehicle-marketplace-database-system)
 
 ---
 
@@ -130,7 +130,7 @@ Microsoft Azure cloud architecture project covering:
 - Network Security
 
 Repository:
-- Azure Fleet Management Architecture
+- [Azure Fleet Management Architecture](https://github.com/InnaBains/azure-fleet-management-architecture)
 
 ---
 
@@ -146,7 +146,7 @@ Systems analysis and design project featuring:
 - Business Process Analysis
 
 Repository:
-- Prime Estates Property Management System
+- [Prime Estates Property Management System](https://github.com/InnaBains/prime-estates-property-management-system)
 
 ---
 
@@ -192,7 +192,7 @@ Repository:
 
 ## 📄 Curriculum Vitae
 
-My latest CV is included within this repository.
+[Download my CV](assets/CV_Inna_Bains.pdf)
 
 ---
 
